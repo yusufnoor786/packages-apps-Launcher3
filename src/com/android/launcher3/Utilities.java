@@ -176,6 +176,7 @@ public final class Utilities {
     public static final String KEY_BLUR_DEPTH = "pref_blur_depth";
     public static final String KEY_RECENTS_OPACITY = "pref_recents_opacity";
     public static final String KEY_APP_DRAWER_OPACITY = "pref_app_drawer_opacity";
+    public static final String KEY_DRAWER_SEARCH = "pref_drawer_search";
 
     /**
      * Returns true if theme is dark.
@@ -1029,4 +1030,10 @@ public final class Utilities {
         SharedPreferences prefs = getPrefs(context.getApplicationContext());
         return prefs.getInt(KEY_APP_DRAWER_OPACITY, 100);
     }
+
+    public static boolean showSearch(Context context) {
+        SharedPreferences prefs = getPrefs(context.getApplicationContext());
+        return prefs.getBoolean(KEY_DRAWER_SEARCH, true);
+    }
+    
 }

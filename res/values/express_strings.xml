@@ -157,4 +157,9 @@
     <!-- Kill App recents action shortcut -->
     <string name="recent_task_option_kill_app">Kill</string>
     <string name="recents_app_killed">App killed</string>
+
+    <!-- App drawer searchbar -->
+    <string name="drawer_search_title">App search bar</string>
+    <string name="drawer_search_summary">Search bar on top of the app drawer</string>
+
 </resources>
