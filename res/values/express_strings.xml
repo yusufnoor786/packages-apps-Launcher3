@@ -16,7 +16,7 @@
 <resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
 
     <!-- Application name -->
-    <string name="express_app_name" translatable="false">Express Launcher</string>
+    <string name="flexo_app_name" translatable="false">Flexo Launcher</string>
 
     <!-- Folder titles -->
     <string name="google_folder_title" translatable="false">Google</string>
